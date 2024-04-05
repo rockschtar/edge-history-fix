@@ -1,11 +1,11 @@
 {
     "appName": {
-        "message": "edge-history-fix"
+        "message": "Edge History Fix"
     },
     "appShortName": {
-        "message": "edge-history-fix"
+        "message": "History Fix"
     },
     "appDescription": {
-        "message": "Fixing history hotkey"
+        "message": "Presse CTRL+SHIT+H to open History in a new tab"
     }
 }

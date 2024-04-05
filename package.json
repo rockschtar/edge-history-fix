@@ -1,7 +1,7 @@
 {
     "name": "edge-history-fix",
-    "description": "Fixing history hotkey",
-    "version": "0.0.1",
+    "description": "Opens the history page in a new tab instead of the small popup window.",
+    "version": peter,
     "homepage": "http://chrome.google.com/webstore",
     "author": "ENTER YOUR NAME HERE",
     "repository": {
