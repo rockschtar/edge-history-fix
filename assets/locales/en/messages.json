@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "edge-history-fix"
+    },
+    "appShortName": {
+        "message": "edge-history-fix"
+    },
+    "appDescription": {
+        "message": "Fixing history hotkey"
+    }
+}
