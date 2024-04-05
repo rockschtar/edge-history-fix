@@ -28,8 +28,12 @@ jobs:
 
       - name: Set Version
         run: |
-          - sed -i "s/\"version\": \"[^\"]*\"/\"version\": \"${{ github.ref_name }}\"/" ./src/manifest.json
-          - sed -i "s/\"version_name\": \"[^\"]*\"/\"version_name\": \"${{ github.ref_name }}\"/" ./src/manifest.json
+          sed -i "s/\"version\": \"[^\"]*\"/\"version\": \"${{ github.ref_name }}\"/" ./src/manifest.json
+        shell: bash
+
+      - name: Set Version name
+        run: |
+          sed -i "s/\"version_name\": \"[^\"]*\"/\"version_name\": \"${{ github.ref_name }}\"/" ./src/manifest.json
         shell: bash
 
       - name: NPM Build
