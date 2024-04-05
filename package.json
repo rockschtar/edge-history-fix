@@ -1,7 +1,7 @@
 {
     "name": "edge-history-fix",
     "description": "Opens the history page in a new tab instead of the small popup window.",
-    "version": peter,
+    "version": "0.0.1",
     "homepage": "http://chrome.google.com/webstore",
     "author": "ENTER YOUR NAME HERE",
     "repository": {
